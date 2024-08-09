@@ -1,0 +1,22 @@
+.programms{
+    margin:80px auto;
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.programm img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.programm img:hover{
+    cursor: pointer; 
+    transform: scale(1.1);
+}
+.programm{
+    flex-basis: 31%;
+
+}
